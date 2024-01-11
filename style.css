@@ -404,3 +404,21 @@ footer {
   margin-right: 320px;
   margin-bottom: 55px;
 }
+
+.header-logo {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.header-logo p {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: #458ff6;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
