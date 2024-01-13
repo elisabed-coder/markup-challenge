@@ -216,12 +216,12 @@ main {
 .testimonials-comments {
   display: flex;
   margin-top: 80px;
-  justify-content: space-evenly;
 }
 .testimonials img {
   width: 133px;
   border-radius: 68px;
   border: 5px solid white;
+  margin-left: 100.07px;
 }
 .customer-name {
   color: #fff;
@@ -238,6 +238,7 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: 48px; /* 266.667% */
+  margin-top: -15px;
 }
 .customer-comment {
   color: rgba(255, 255, 255, 0.9);
@@ -420,68 +421,4 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media only screen and (max-width: 600px) {
-  section {
-    max-width: 600px;
-  }
-  body {
-    align-items: center;
-  }
-  nav {
-    max-width: 600px;
-  }
-  nav ul {
-    gap: 8px;
-  }
-  main,
-  .our-services,
-  .providers,
-  .apps {
-    display: block;
-    margin-top: 84px;
-  }
-  .main-header,
-  .our-services > p,
-  .providers-rows,
-  .apps div:nth-child(1) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-  }
-  main img {
-    width: 100%;
-  }
-  .service-columns div {
-    width: 282px;
-  }
-  .providers img {
-    width: 600px;
-  }
-  .testimonials {
-    width: 600px;
-  }
-  .testimonials h2 {
-    padding-top: 10px;
-  }
-  .testimonials-comments {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
-    margin-right: 5px;
-  }
-  .latest-article div {
-    flex-direction: column;
-  }
-  footer {
-    flex-wrap: wrap;
-    width: 100%;
-    flex-direction: column;
-    justify-content: none;
-  }
 }
